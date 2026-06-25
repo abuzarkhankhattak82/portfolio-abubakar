@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Muhammad Abubakar · Dispenser &amp; Pharmacy Tech</title>
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!-- AOS (Animate On Scroll) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- ===== NAVIGATION ===== -->
+    <header id="header">
+        <div class="container nav">
+            <a href="#hero" class="logo">M.<span>Abubakar</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="themeToggle" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section id="hero">
+        <div class="container hero-grid">
+            <div class="hero-content" data-aos="fade-right">
+                <span class="badge"><i class="fas fa-user-md"></i> Dispenser &amp; Pharmacy Technician</span>
+                <h1>Muhammad <span class="highlight">Abubakar</span></h1>
+                <p>Dedicated healthcare professional with expertise in pharmaceutical care, dispensing, and patient safety.</p>
+                <div class="hero-actions">
+                    <a href="#certificates" class="btn btn-primary"><i class="fas fa-certificate"></i> View Certificates</a>
+                    <a href="#contact" class="btn btn-outline"><i class="fas fa-envelope"></i> Contact</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat"><h3>4</h3><p>Certificates</p></div>
+                    <div class="stat"><h3>2</h3><p>Specializations</p></div>
+                    <div class="stat"><h3>★</h3><p>Patient Care</p></div>
+                </div>
+            </div>
+            <div class="hero-3d" data-aos="fade-left">
+                <div id="three-canvas"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about">
+        <div class="container about-grid">
+            <div class="about-image" data-aos="fade-right">
+                <div class="profile-frame">
+                    <img src="assets/profile.jpg" alt="Muhammad Abubakar" onerror="this.src='https://ui-avatars.com/api/?name=Muhammad+Abubakar&size=400&background=2563eb&color=fff&bold=true'">
+                </div>
+                <div class="floating-badge">
+                    <i class="fas fa-graduation-cap"></i> Aleena Institute
+                </div>
+            </div>
+            <div class="about-text" data-aos="fade-left">
+                <h2>About Me</h2>
+                <div class="sub-title"><i class="fas fa-stethoscope"></i> Dispenser Technician · Pharmacy Technician</div>
+                <p>
+                    I am <strong>Muhammad Abubakar</strong>, a qualified <strong>Dispenser Technician</strong> and
+                    <strong>Pharmacy Technician</strong> from <strong>Aleena Institute of Medical Sciences</strong>.
+                    I am passionate about healthcare and dedicated to ensuring safe and effective medication use.
+                </p>
+                <ul class="about-details">
+                    <li><i class="fas fa-user-graduate"></i> Aleena Institute of Medical Sciences</li>
+                    <li><i class="fas fa-certificate"></i> Dispenser Technician</li>
+                    <li><i class="fas fa-pills"></i> Pharmacy Technician</li>
+                    <li><i class="fas fa-heartbeat"></i> Patient Safety Advocate</li>
+                </ul>
+                <a href="#contact" class="btn btn-primary"><i class="fas fa-phone-alt"></i> Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CERTIFICATES ===== -->
+    <section id="certificates">
+        <div class="container">
+            <div class="text-center" data-aos="fade-up">
+                <h2 class="section-title">My Certificates</h2>
+                <p class="section-sub">Professional certifications that validate my skills and expertise.</p>
+            </div>
+            <div class="certs-grid">
+                <div class="cert-card" data-aos="flip-up" data-aos-delay="50">
+                    <i class="fas fa-shield-alt cert-icon"></i>
+                    <h3>Community Action For Disaster Response</h3>
+                    <p class="issuer"><i class="fas fa-building"></i> Punjab Emergency Service</p>
+                    <div class="cert-img"><img src="assets/cert1.jpg" alt="Cert 1" onerror="this.style.display='none'"></div>
+                </div>
+                <div class="cert-card" data-aos="flip-up" data-aos-delay="100">
+                    <i class="fas fa-shield-alt cert-icon"></i>
+                    <h3>Basic Community Safety Online Training</h3>
+                    <p class="issuer"><i class="fas fa-building"></i> Punjab Emergency Service</p>
+                    <div class="cert-img"><img src="assets/cert2.jpg" alt="Cert 2" onerror="this.style.display='none'"></div>
+                </div>
+                <div class="cert-card" data-aos="flip-up" data-aos-delay="150">
+                    <i class="fas fa-award cert-icon"></i>
+                    <h3>Certificate of Achievement</h3>
+                    <p class="issuer"><i class="fas fa-school"></i> Aleena College</p>
+                    <div class="cert-img"><img src="assets/cert3.jpg" alt="Cert 3" onerror="this.style.display='none'"></div>
+                </div>
+                <div class="cert-card" data-aos="flip-up" data-aos-delay="200">
+                    <i class="fas fa-pills cert-icon"></i>
+                    <h3>Advanced Dispenser &amp; Pharmacy Tech</h3>
+                    <p class="issuer"><i class="fas fa-university"></i> Aleena Institute of Medical Sciences</p>
+                    <div class="cert-img"><img src="assets/cert4.jpg" alt="Cert 4" onerror="this.style.display='none'"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills">
+        <div class="container">
+            <div class="text-center" data-aos="fade-up">
+                <h2 class="section-title">Core Skills</h2>
+                <p class="section-sub">Areas of expertise in pharmaceutical and healthcare services.</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="20"><i class="fas fa-prescription-bottle"></i><span>Dispensing</span></div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="40"><i class="fas fa-pills"></i><span>Pharmacy Ops</span></div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="60"><i class="fas fa-user-md"></i><span>Patient Care</span></div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="80"><i class="fas fa-heartbeat"></i><span>Emergency Response</span></div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="100"><i class="fas fa-clipboard-check"></i><span>Safety Protocols</span></div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="120"><i class="fas fa-comments"></i><span>Counseling</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact">
+        <div class="container">
+            <div class="text-center" data-aos="fade-up">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-sub">Have a question or want to collaborate? Reach out anytime.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Get in Touch</h3>
+                    <p>I'm always open to new opportunities, discussions, and connections in the healthcare field.</p>
+                    <div class="contact-item"><i class="fas fa-user"></i><span>Muhammad Abubakar</span></div>
+                    <div class="contact-item"><i class="fas fa-envelope"></i><span>abubakar@example.com</span></div>
+                    <div class="contact-item"><i class="fas fa-phone-alt"></i><span>+92 300 1234567</span></div>
+                    <div class="contact-item"><i class="fas fa-map-marker-alt"></i><span>Pakistan</span></div>
+                    <div class="contact-social">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm" data-aos="fade-left">
+                    <input type="text" id="name" placeholder="Your Name" required />
+                    <input type="email" id="email" placeholder="Your Email" required />
+                    <input type="text" id="subject" placeholder="Subject" />
+                    <textarea id="message" placeholder="Your Message..." required></textarea>
+                    <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Send Message</button>
+                    <div id="formFeedback" class="form-feedback"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            &copy; 2026 <span>Muhammad Abubakar</span> · Dispenser &amp; Pharmacy Technician. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- ===== SCRIPTS ===== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
